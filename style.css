@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/footer.css");
+
+
+:root {
+    --branco-principal: #ffffff;
+    --preto: #000000;
+    --cinza-claro: #667085;
+    --cinza-escuro: #3A404E;
+    --vermelho-escuro: #8E2424;
+    --font-principal: 'Inter' sans-serif;
+    --preto-2: #101828;
+    --vermelho-claro:rgba(195, 25, 25, 0.03);
+    --borda: #EAECF0;
+    --branco-gelo: #F9FAFB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--branco-principal);
+    font-size: 16px;  
+    font-family: var(--font-principal);
+}

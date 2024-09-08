@@ -1,0 +1,215 @@
+.container__banner{
+    text-align: center;
+    gap: 24px;
+    padding: 96px 24px 96px 24px;
+    margin: 2em;
+}
+
+.banner__titulo{
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+    padding: 1em;
+}
+
+.banner__titulo_maior{
+    font-size: 48px;
+    font-weight: 600;
+    gap: 12px;
+    padding: 0 32px 0 32px;
+}
+
+.banner__texto{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    color: var(--cinza-claro);
+    padding: 12px 0 0 0;
+    line-height: 30px;
+    
+}
+
+/*metricas*/
+
+.container__metricas{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 96px 0;
+    gap: 64px;
+    margin: 2em;
+}
+
+.metricas__card{
+    gap: 20px;
+    width: 280px;
+    height: 72px;
+}
+
+.metricas__titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+    line-height: 72px;
+    
+}
+
+.metricas__texto{
+    font-size: 18px;
+    font-weight: 500;
+    color: var( --preto--2);
+    margin: 1em;
+    line-height: 28px;
+    
+}
+
+.metricas__descrição{
+    font-weight: 400;
+    color: var(--cinza-claro);
+    line-height: 24px;
+    
+}
+
+/*vagas*/
+
+
+.container__vagas{
+    margin: 5em 2em;
+    padding: 3em;
+    gap:64px;
+    padding:96px, 0px, 96px, 0px ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0 32px 0 32px;
+    margin: 5em;
+}
+
+.vagas__titulo{ 
+    font-size: 14px; 
+    font-weight: 500;
+    color: var(--vermelho-escuro); 
+    border: none; 
+    border-radius: 16px; 
+    padding: 4px, 12px, 4px, 12px; 
+    background-color: var(--vermelho-claro);
+  }    
+
+.vagas__texto{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    width: 768px;
+    color: var( --preto--2);
+}
+
+.vagas__descrição{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cinza-claro);
+}
+
+.imagem__talentos{
+    margin-top: 298px;
+    margin-left: 112px;
+    width: 1216px;
+    height: 400px;
+}
+
+.vagas__abertas{
+    gap: 32px;  
+}
+
+.vagas__abertas-lista{
+    border: 1px solid var(--borda);
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px, 24px, 28px, 24px;
+    margin: 2em;
+    padding: 2em;
+    width: 768px;
+    height: 136px;
+}
+
+.vagas__abertas-titulo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto--2);
+    line-height: 30px;
+}
+
+.vagas__abertas-subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--preto--2);
+}
+
+.vagas__abertas-lista-texto{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var( --cinza-claro);
+}
+
+/*depoimentos*/
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 64px;
+    background-color:  var(--vermelho-claro);
+    margin: 5em;
+    padding:0px, 32px, 0px, 32px;
+}
+
+.depoimentos__titulo{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--vermelho-escuro);
+    text-align: center;
+
+}
+
+.depoimentos__texto{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: center;
+    color: var(--preto-2);
+}
+
+.attribution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.depoimentos__nome{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--preto-2);
+}
+
+.depoimentos__cargo{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cinza-claro);
+}

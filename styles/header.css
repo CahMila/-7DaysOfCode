@@ -1,0 +1,48 @@
+.cabeçalho{
+    margin: 2em 2em;
+    display: flex;
+    justify-content: space-between;
+    color: var(--cinza-claro);
+    font-size: 18px;
+    padding: 0 32px 0 32px;    
+}
+
+.cabeçalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.cabeçalho__paginas_itens{
+   display: flex;
+    padding: 1em;
+    gap: 40px;
+    
+}
+
+.cabeçalho__botoes_itens{
+    display: flex;
+    padding: 1em; 
+    gap: 12px;
+       
+}
+
+.lista__menu_link{
+    text-decoration: none;
+    padding: 1em
+}
+
+.lista__menu_link_ancora{
+    background-color: var(--vermelho-escuro);
+    border-radius: 8px;
+    color: var(--branco-principal);
+    padding: 0.5em;
+    text-decoration: none;
+}
+
