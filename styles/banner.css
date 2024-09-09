@@ -93,6 +93,10 @@
     margin: 5em;
 }
 
+.talentos img{
+    width: 130%;
+}
+
 .vagas__titulo{ 
     font-size: 14px; 
     font-weight: 500;
@@ -120,12 +124,6 @@
     color: var(--cinza-claro);
 }
 
-.imagem__talentos{
-    margin-top: 298px;
-    margin-left: 112px;
-    width: 1216px;
-    height: 400px;
-}
 
 .vagas__abertas{
     gap: 32px;  
